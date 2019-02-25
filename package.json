@@ -1,0 +1,29 @@
+{
+  "name": "ReactAssignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekwigley/ReactAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joekwigley/ReactAssignment/issues"
+  },
+  "homepage": "https://github.com/joekwigley/ReactAssignment#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "next": "^8.0.2",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3"
+  }
+}
