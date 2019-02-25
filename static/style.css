@@ -1,0 +1,14 @@
+body {
+    background-color: #f1f1ef;
+  }
+
+.brandLogo {
+  width: 120px;
+}
+
+.jbc {
+  font-family: 'Tangerine', cursive;
+  font-size: 1em;
+  color: #976e5a;
+  margin-left: 2%;
+}
