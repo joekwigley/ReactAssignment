@@ -1,11 +1,15 @@
 import Layout from '../components/Layout';
+import Banner from '../components/Banner';
 
 const Index = () => (
     <Layout>
         <div className="container">
-            <h1> Home page</h1>
         </div>
+        <Banner/>
     </Layout>
+    
+
+
 
 
 );

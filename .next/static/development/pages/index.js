@@ -1,5 +1,35 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/Banner.js":
+/*!******************************!*\
+  !*** ./components/Banner.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/joe/HDDocuments/University/SecondYear/WebsiteDesign/Term2/ReactAssignment/components/Banner.js";
+
+
+var Banner = function Banner() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "position-relative overflow-hidden p-3 p-md-5 text-center",
+    id: "banner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Banner);
+
+/***/ }),
+
 /***/ "./components/Layout.js":
 /*!******************************!*\
   !*** ./components/Layout.js ***!
@@ -121,7 +151,7 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: " site-header py-1 navbar navbar-light navbar-expand-sm",
+    className: "site-header py-1 navbar navbar-light navbar-expand-sm",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -136,7 +166,7 @@ var Navbar = function Navbar() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-brand",
-    href: "#",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -303,41 +333,7 @@ var Navbar = function Navbar() {
   }, "Contact"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Navbar); //     <div>
-//         <Nav activeKey="1" onSelect={k =>(k)}>
-//         <Nav.Item>
-//         <Nav.Link eventKey="1" href="/">
-//             Home
-//         </Nav.Link>
-//         </Nav.Item>
-//         <NavDropdown title="Services" id="nav-dropdown">
-//         <NavDropdown.Item eventKey="4.1" href="/">Craft Supplies</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.2" href="/">Bespoke Picture Framing</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.3" href="/">Special Occassion Invitations</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.4" href="/">Personalised Gifts</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.5" href="/">Custom Stensils</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.6" href="/">Artwork Commissions</NavDropdown.Item>
-//         </NavDropdown>
-//         <Nav.Item>
-//         <Nav.Link eventKey="2" href="/about" title="About">
-//             About
-//         </Nav.Link>
-//         </Nav.Item>
-//         <Nav.Item>
-//         <Nav.Link eventKey="3" title="Contact">
-//             Contact
-//         </Nav.Link>
-//         </Nav.Item>
-//     </Nav>
-//        <style jsx global>{`
-//      .nav-link {
-//          color: green;
-//      }
-//      .nav {
-//          background-color: transparent;
-//      }
-//   `}</style>
-//   </div>
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
@@ -10879,7 +10875,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner.js");
 var _jsxFileName = "/Users/joe/HDDocuments/University/SecondYear/WebsiteDesign/Term2/ReactAssignment/pages/index.js";
+
 
 
 
@@ -10887,23 +10885,23 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, " Home page")));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

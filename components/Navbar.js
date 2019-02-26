@@ -3,9 +3,9 @@ import Link from 'next/link';
 const Navbar = () => (
 
     <div>
-        <nav className=" site-header py-1 navbar navbar-light navbar-expand-sm" >
+        <nav className="site-header py-1 navbar navbar-light navbar-expand-sm" >
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                     <img className="brandLogo" src="../static/images/NavLogo.png" alt="Brand Logo"/><span className="jbc">"Just be creative"</span>
                 </a> 
 
@@ -44,45 +44,3 @@ const Navbar = () => (
 
 
 export default Navbar;
-
-
-//     <div>
-//         <Nav activeKey="1" onSelect={k =>(k)}>
-//         <Nav.Item>
-//         <Nav.Link eventKey="1" href="/">
-//             Home
-//         </Nav.Link>
-//         </Nav.Item>
-//         <NavDropdown title="Services" id="nav-dropdown">
-//         <NavDropdown.Item eventKey="4.1" href="/">Craft Supplies</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.2" href="/">Bespoke Picture Framing</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.3" href="/">Special Occassion Invitations</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.4" href="/">Personalised Gifts</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.5" href="/">Custom Stensils</NavDropdown.Item>
-//         <NavDropdown.Item eventKey="4.6" href="/">Artwork Commissions</NavDropdown.Item>
-
-//         </NavDropdown>
-//         <Nav.Item>
-//         <Nav.Link eventKey="2" href="/about" title="About">
-//             About
-//         </Nav.Link>
-//         </Nav.Item>
-//         <Nav.Item>
-//         <Nav.Link eventKey="3" title="Contact">
-//             Contact
-//         </Nav.Link>
-//         </Nav.Item>
-
-//     </Nav>
-
-//        <style jsx global>{`
-//      .nav-link {
-//          color: green;
-//      }
-//      .nav {
-//          background-color: transparent;
-//      }
-//   `}</style>
-
-
-//   </div>

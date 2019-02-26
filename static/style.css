@@ -1,5 +1,5 @@
 body {
-    background-color: #f1f1ef;
+    background-color :#f1f1ef;
   }
 
 .brandLogo {
@@ -12,3 +12,35 @@ body {
   color: #976e5a;
   margin-left: 2%;
 }
+
+.dropdown-menu {
+  background-color: #f1f1ef;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav {
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #976e5a;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #222;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #222;
+}
+
+#banner {
+  background-image: url("images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+
+}
+
